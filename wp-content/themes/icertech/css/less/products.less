@@ -1,0 +1,473 @@
+// ICERTECH PRODUCT LIST
+
+
+.product-preview__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .clearfix();
+  //background-color: @color1;
+}
+
+.product-preview__list li{
+  min-height: 260px;
+  padding: 20px;
+  background-color: @color1;
+  overflow: hidden;
+}
+
+@media (min-width: @screen-md-min) {
+  .product-preview__list li{
+    min-height: 400px;
+    padding: 0;
+  }
+}
+
+.product-preview__content{
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: @screen-md-min) {
+  .product-preview__content{
+    padding: 100px;
+    width: 50%;
+    float: left;
+  }
+}
+
+.product-preview-title{
+  margin: 0;
+  padding: 0;
+}
+
+.product-preview-title{
+	font-family: "Raleway", @font-family-sans-serif;
+	color: @white;
+	text-transform: uppercase;
+	font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+@media(min-width: @screen-sm-min){
+    .product-preview-title{
+    	font-size: 60px;
+    	letter-spacing: 2px;
+    }
+}
+
+.product-preview-excerpt{
+  color: @white;
+  font-size: 18px;
+}
+
+.product-preview__list a{
+  color: @white;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid @white;
+}
+
+.product-preview__list a:hover,
+.product-preview__list a:active{
+  text-decoration: none;
+}
+
+.product__img{
+  display: none;
+}
+
+@media (min-width: @screen-md-min) {
+  .product__img{
+    width: 50%;
+    min-height: 460px;
+    float: left;
+    display: block;
+    background-size: contain;
+  }
+}
+
+
+.product-preview__list li:nth-child(2) {
+    background-color: darken(@color1, 5%);
+}
+
+
+.product-preview__list li:nth-child(3) {
+    background-color: darken(@color1, 10%);
+}
+
+.product-preview__list li:nth-child(4) {
+    background-color: darken(@color1, 15%);
+}
+
+.product-preview__list li:nth-child(5) {
+    background-color: darken(@color1, 20%);
+}
+
+.product-preview__list li:nth-child(6) {
+    background-color: darken(@color1, 25%);
+}
+
+.product-preview__list li:nth-child(7) {
+    background-color: darken(@color1, 30%);
+}
+
+.product-preview__list li:nth-child(8) {
+    background-color: darken(@color1, 35%);
+}
+
+.product-preview__list li:nth-child(9) {
+    background-color: darken(@color1, 40%);
+}
+
+.product-preview__list li:nth-child(10) {
+    background-color: darken(@color1, 45%);
+}
+
+
+// ICERTECH SINGLE PRODUCTS
+
+
+.product-banners{
+  background-color: @color1;
+}
+
+.banners--product-container{
+  padding: 20px;
+}
+
+@media (min-width: @screen-md-min) {
+  .banners--product-container{
+    padding: 140px 100px;
+    width: 50%;
+    min-height: 560px;
+  }
+}
+
+.banners--product-title h1{
+  color: @white;
+  font-family: "Raleway", @font-family-sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+@media (min-width: @screen-md-min) {
+  .banners--product-title h1{
+  	font-size: 60px;
+  }
+}
+
+.banners--product-excerpt p{
+  color: @white;
+  font-size: 18px;
+}
+
+.banners--product-bg{
+  background-size: 60% auto;
+}
+
+@media (min-width: @screen-md-min) {
+  .banners--product-bg{
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+@media (min-width: 1780px) {
+  .banners--product-bg{
+    background-size: auto auto;
+  }
+}
+
+@media (max-width: @screen-md-min) {
+  .banners--product-bg{
+    background-image:none !important;
+  }
+}
+
+
+// PRODUCT BANNER BG COLOUR
+
+.insulated-boxes .product-banners{
+  background-color: @color1;
+}
+
+.gel-packs .product-banners{
+  background-color: darken(@color1, 5%);
+}
+
+.insulated-envelopes .product-banners{
+  background-color: darken(@color1, 10%);
+}
+
+.insulated-carry-bags .product-banners{
+  background-color: darken(@color1, 15%);
+}
+
+.ice-sheets .product-banners{
+  background-color: darken(@color1, 20%);
+}
+
+.moulded-polystyrene-boxes .product-banners{
+  background-color: darken(@color1, 25%);
+}
+
+.packaging-accessories .product-banners{
+  background-color: darken(@color1, 30%);
+}
+
+.complete-solutions .product-banners{
+  background-color: darken(@color1, 35%);
+}
+
+
+// HOMEPAGE PRODUCT PREVIEW LIST
+
+.product-thumb__list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  .clearfix();
+}
+
+.product-thumb__list li{
+  list-style-type: none;
+  float: left;
+  width:100%;
+  background-color: @color4;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: @screen-md-min) {
+  .product-thumb__list > li{
+    width:calc(100% / 2);
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  .product-thumb__list > li{
+    width:calc(100% / 3);
+  }
+}
+
+.product-thumb__content{
+  padding: 10%;
+  background-color: @color2;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: @screen-md-min) {
+  .product-thumb__content{
+    padding: 20%;
+  }
+
+
+}
+
+@media (min-width: @screen-lg-min) {
+  .product-thumb__content{
+    padding: 10%;
+  }
+}
+
+.product-thumb__content:hover,
+.product-thumb__content:active,
+.product-thumb__content:focus{
+  opacity: 0.9;
+}
+
+@media (max-width: @screen-sm-max) {
+  .product-thumb__content{
+    opacity: 0.9;
+  }
+}
+
+.product-thumb__content h4{
+  color: @white;
+  font-size: 16px
+}
+
+.product-thumb__content p{
+  color: @white;
+  font-size: 14px;
+}
+
+.product-thumb__title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: @color1;
+  text-align: center;
+}
+
+.product-thumb__title h4{
+  color: @white;
+}
+
+// MANUFACTURED IN BRITAIN
+
+.manufacture-banner h2{
+  color: @color1;
+  letter-spacing: 4px;
+}
+
+// PRODUCT FEATURES
+
+.product_features{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  .clearfix();
+}
+
+.product_feature-image{
+  width: 100%;
+  min-height: 400px;
+}
+
+@media (min-width: @screen-md-min) {
+  .product_feature-image{
+    width: 60%;
+  }
+}
+
+.product_feature-content{
+  width: 100%;
+  min-height: 400px;
+  background-color: @color2;
+  text-align: center;
+  padding: 60px;
+}
+
+@media (min-width: @screen-md-min) {
+  .product_feature-content{
+    width: 40%;
+    padding: 60px 40px;
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  .product_feature-content{
+    padding: 80px
+  }
+}
+
+.product_feature-content h3{
+  color: @white;
+}
+
+.product_feature-content p{
+  color: @white;
+}
+
+.product__feature--even .product_feature-image{
+  float: left;
+}
+
+.product__feature--even .product_feature-content{
+  float: right;
+}
+
+.product__feature--odd .product_feature-image{
+  float: right;
+}
+
+.product__feature--odd .product_feature-content{
+  float: left;
+}
+
+// PRODUCT SPECS
+
+.product-specs{
+  background-color: @color4;
+}
+
+.product-specs .row{
+  margin: 20px 0;
+}
+
+// FAQ's
+
+.product_faq-toggle{
+  background-color: @color2;
+  padding: 20px;
+}
+
+.product_faq-toggle a,
+.product_faq-toggle a:hover{
+  color: @white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.faq-toggle_icon_down{
+  display: none;
+	visibility: hidden;
+}
+
+.collapsed .faq-toggle_icon_down{
+  display: inline;
+	visibility: visible;
+}
+
+.faq-toggle_icon_up{
+  display: inline;
+	visibility: visible;
+}
+
+.collapsed .faq-toggle_icon_up{
+  display: none;
+	visibility: hidden;
+}
+
+.faq-toggle__list{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.faq-toggle__list li{
+  padding: 20px;
+  border-bottom: 1px solid @color4;
+}
+
+.faq__title{
+  color: @color1;
+}
+
+.more-help{
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: @color1;
+}
+
+.more-help p{
+  color: @color2;
+  text-transform: uppercase;
+}
+
+.more-help a{
+  font-size: 24px;
+  text-transform: uppercase;
+  color: @white;
+  letter-spacing: 2px;
+  text-decoration: none;
+}

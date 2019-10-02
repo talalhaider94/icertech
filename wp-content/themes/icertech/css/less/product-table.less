@@ -1,0 +1,118 @@
+.container--table {
+    overflow-x: auto;
+}
+
+.table--products {
+    width: 100%;
+    background-color: @gray-lighter;
+    box-sizing: border-box;
+
+}
+
+.table--products th,
+.table--products td {
+    width: 25%;
+    border: 1px solid @gray-light;
+    padding: 18px;
+    vertical-align: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.table--products th {
+    text-align: center;
+    color: @white;
+    background-color: @color2;
+    font-family: @headings-font-family;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.table--products td {
+    height: 480px;
+}
+
+.table--products td[colspan] {
+    padding: 0;
+}
+
+.table--products > tbody > tr > td:first-child {
+    color: @white;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: @headings-font-family;
+    background-color: @color1;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    vertical-align: top;
+}
+
+.table--products > tbody > tr:nth-child(2) > td:first-child {
+    background-color: darken(@color1, 10%);
+}
+
+.table--products > tbody > tr:nth-child(3) > td:first-child {
+    background-color: darken(@color1, 20%);
+}
+
+.table--products > tbody > tr:nth-child(4) > td:first-child {
+    background-color: darken(@color1, 30%);
+}
+
+.table--products > tbody > tr:nth-child(5) > td:first-child {
+    background-color: darken(@color1, 40%);
+}
+
+.table--products > tbody > tr:nth-child(6) > td:first-child {
+    background-color: darken(@color1, 50%);
+}
+
+.table--products > tbody > tr:nth-child(7) > td:first-child {
+    background-color: darken(@color1, 60%);
+}
+
+.table--products table {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 480px;
+}
+
+.table--products table td {
+    width: 50%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.table--products table td:first-child {
+    border-left-color: transparent;
+}
+
+.table--products table td:last-child {
+    border-right-color: transparent;
+}
+
+.table--products table tr:first-child td {
+    border-top-color: transparent;
+}
+
+.table--products table tr:last-child td {
+    border-bottom-color: transparent;
+}
+
+.table--products ul {
+    padding: 0;
+    margin: 0;
+}
+
+.table--products ul li {
+    margin-bottom: 24px;
+    list-style: none;
+}
+
+.table--products ul li:before {
+    content: "\2022";
+    margin-right: 6px;
+}

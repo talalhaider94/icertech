@@ -1,0 +1,103 @@
+/**
+New blog pagination
+**/
+
+.nav--pagination {
+	position: relative;
+}
+
+.nav--pagination li a.next, .nav--pagination li a.prev {
+	border: none;
+	font-size: 2.5em;
+	position: absolute;
+	top: 7%;
+}
+
+.nav--pagination li a.next:hover, .nav--pagination li a.prev:hover {
+	background: none;
+	color: #ddd;
+}
+
+.nav--pagination li a.next {
+	right: 0;
+}
+
+.nav--pagination li a.prev {
+	left: 0;
+}
+
+.nav--pagination li a.page-numbers , .nav--pagination li span.page-numbers.current {
+	margin: 0px 5px;
+}
+
+.nav--pagination li span.page-numbers.current {
+	background: #00aae6;
+	color: #fff;
+}
+
+.post-prev {
+	margin-top: 20px;
+}
+
+/**
+Form additions
+**/
+
+.nav--packaging-coolant-guide.contact-switcher {
+	width: 650px;
+	max-width: 90%;
+	margin: -49px auto 0 auto;
+}
+
+.nav--packaging-coolant-guide.contact-switcher li {
+	width: 50%;
+}
+
+.wpcf7-list-item:nth-child(5) {
+	background: url(https://www.icertech.co.uk/wp-content/uploads/2017/05/Icer-Pack-Split-Pack-2.png);
+	background-size: contain;
+	background-position: top center;
+	background-repeat:no-repeat;
+
+}
+
+.wpcf7-list-item:nth-child(7) {
+	background: url("https://icertech.co.uk/wp-content/themes/icertech/img/quick-form/tape.png") no-repeat center 0px #003845;
+}
+
+.wpcf7-list-item:nth-child(8) {
+	background-image: url("http://www.icertech.co.uk/wp-content/uploads/2019/05/eco-box.png");
+	background-size: cover;
+	background-position: top center;
+}
+
+.wpcf7-form input[type="checkbox"] {
+	width: auto;
+}
+
+.wpcf7-list-item input[type="checkbox"] {
+    position: relative;
+    z-index: 999;
+}
+
+.wpcf7-list-item input[type="checkbox"] + span::before {
+    z-index: 2;
+}
+
+ .wpcf7-form .sample-request input[type="checkbox"] {
+	width: 100%;
+}
+
+#trigger-popup {
+    display: none;
+}
+
+.wpcf7-list-item:nth-child(4) {
+    background-image: url("http://www.icertech.co.uk/wp-content/uploads/2019/05/pluumo-box.png") !important;
+}
+.slide-7 {
+    background: url('http://www.icertech.co.uk/wp-content/uploads/2019/05/enviro-background-watermark.jpg');
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

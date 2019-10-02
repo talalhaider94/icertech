@@ -1,0 +1,219 @@
+//SHOP banner-scroll
+
+.shop-banners{
+  position: relative;
+  margin: 0;
+}
+
+@media (min-width: @screen-md-min) {
+  .shop-banners {
+    margin: 100px 0;
+  }
+}
+
+
+
+
+// CART / LOGIN LINK
+
+.menu-item-cart-item,
+.login-logout-link  {
+  float: right;
+  line-height: 24px;
+}
+
+.menu-item-cart-item a  {
+  padding: 0 20px 0 0;
+  line-height: 24px;
+}
+
+.login-logout-link a  {
+  padding: 0!important;
+}
+
+// GENERAL STYLING
+
+.woocommerce .woocommerce-breadcrumb  {
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border-bottom: 1px solid @color4;
+}
+
+
+
+// SINGLE PRODUCT PAGE
+
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: @color1;
+}
+
+.woocommerce div.product .stock {
+  color: @color3;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt  {
+  background-color: @color1;
+}
+
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt[disabled]:disabled, .woocommerce #respond input#submit.alt[disabled]:disabled:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt[disabled]:disabled, .woocommerce a.button.alt[disabled]:disabled:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt[disabled]:disabled, .woocommerce button.button.alt[disabled]:disabled:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt[disabled]:disabled, .woocommerce input.button.alt[disabled]:disabled:hover {
+    background-color: @color1;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color:darken(@color1, 10%);
+}
+
+.woocommerce .label{
+  display: none;
+}
+
+.woocommerce .variations_form{
+  padding: 10px 0;
+  border-top: 1px solid @color4;
+  border-bottom: 1px solid @color4;
+}
+
+.quantity_select {
+    margin-bottom: 1em;
+}
+
+.woocommerce .product_meta::before {
+    content: "Your bulk purchasing discount will be added to your basket";
+    display: block;
+    .alert;
+    .alert-success;
+}
+
+.pbd {
+    background-color: @color1;
+    padding: 12px;
+    color: @white;
+    margin: 24px 0;
+}
+
+.pbd h2 {
+    margin-top: 0;
+    color: @white;
+}
+
+.table--pbd {
+    width: 100%;
+}
+
+.table--pbd th,
+.table--pbd td {
+    width: 50%;
+    padding-bottom: 6px;
+}
+
+.table--pbd th {
+    font-weight: normal;
+}
+
+.productAttributes {
+    font-size: 1.2em;
+    color: @gray-light;
+}
+
+.products .productAttributes {
+    font-size: 0.857em;
+    color: @gray-light;
+}
+
+// change product tabs at mobile sizes
+@media(max-width: @screen-sm){
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs {
+        padding: 0;
+    }
+
+    .woocommerce #content div.product .woocommerce-tabs ul.tabs li,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li,
+    .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li,
+    .woocommerce-page div.product .woocommerce-tabs ul.tabs li {
+        display: block;
+    }
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs li {
+        margin: 0;
+    }
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+        border-bottom-color: #d3ced2;
+    }
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs li:after,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li:before {
+        content: none;
+    }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    display: block;
+}
+
+// CATEGORY PAGE
+
+@media(min-width: @screen-sm){
+    .col--shop {
+        float: right;
+    }
+}
+
+.woocommerce .page-title {
+    text-align: center;
+}
+
+.woocommerce .term-description {
+    text-align: center;
+    padding: 36px 0;
+    border-bottom: 1px solid @gray-lighter;
+    margin-bottom: 24px;
+}
+
+
+@media(min-width: 769px){
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 30.8%;
+    }
+
+    // correct for upsells and related products
+    .woocommerce .upsells ul.products li.product,
+    .woocommerce-page .upsells ul.products li.product,
+    .woocommerce .related ul.products li.product,
+    .woocommerce-page .related ul.products li.product {
+        width: 22.05%;
+    }
+}
+
+.widget_product_categories {
+    padding: 24px 12px;
+    background-color: @gray-lighter;
+    margin: 0 0 24px;
+}
+
+.widget_product_categories h3 {
+    border-bottom: 1px solid darken(@gray-lighter, 5%);
+    padding: 0 0 24px;
+    margin: 0 0 24px;
+}
+
+.widget_product_categories .product-categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget_product_categories .product-categories li {
+    margin-bottom: 12px;
+}
+
+.widget_product_categories .product-categories li a {
+    color: @text-color;
+}
+
+.woocommerce ul.products li.product .price {
+    font-weight: bold;
+}

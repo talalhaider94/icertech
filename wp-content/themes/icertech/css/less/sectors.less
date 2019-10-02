@@ -1,0 +1,76 @@
+// HOMEPAGE SECTORS
+
+.sectors__list  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  .clearfix();
+  position: relative;
+}
+
+.sectors__list li {
+  float: left;
+  width:100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media (min-width: @screen-md-min) {
+  .sectors__list > li {
+    width:calc(100% / 2);
+  }
+}
+
+.sector__content  {
+  padding: 100px 20px;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+.sector__content:hover  {
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+.sectors__sub-heading {
+  color: @white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.sector__title h3 {
+  font-size: 44px;
+  color: @white;
+  margin: 0 0 20px 0;
+  letter-spacing: 4px;
+}
+
+.sector__content a  {
+  color: @white;
+  text-decoration: none;
+  border-bottom: 1px solid @white;
+  padding: 0 0 10px 0;
+}
+
+.sectors {
+    text-align: center;
+}
+
+.sectors__performance-summary {
+    background-color: @color1;
+}
+
+.sectors__performance-summary h2 {
+    text-align: center;
+    color: @white;
+}
+
+.sectors__performance-summary .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectors__graph .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}

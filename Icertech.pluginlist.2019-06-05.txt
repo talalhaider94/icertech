@@ -1,0 +1,137 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.6.9
+  http://backwpup.com
+  Blog Name: Icertech
+  Blog URL: https://www.icertech.co.uk
+  Generated on: 2019-06-05 08:23.27
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Advanced Custom Fields PRO (v.5.3.7) from Elliot Condon
+	http://www.advancedcustomfields.com/
+Autoptimize (v.2.2.2) from Frank Goossens (futtta)
+	http://autoptimize.com/
+BackWPup (v.3.6.9) from Inpsyde GmbH
+	http://backwpup.com
+Better Search Replace (v.1.2.10) from Delicious Brains
+	https://bettersearchreplace.com
+Bootstrap for Contact Form 7 (v.1.3.1) from Felix Arntz
+	http://wordpress.org/plugins/bootstrap-for-contact-form-7/
+Contact Form 7 (v.4.6.1) from Takayuki Miyoshi
+	http://contactform7.com/
+Cookie Consent (v.2.3.9) from Catapult_Themes
+	https://catapultthemes.com/cookie-consent/
+Crazy Egg (v.2.0) from Crazy Egg
+	http://www.crazyegg.com
+Custom Login Page Customizer (v.1.2.1) from Hardeep Asrani
+	https://themeisle.com/plugins/login-customizer/
+DHPopup - Popup Builder for Visual Composer (v.1.0.5) from Sitesao team
+	http://sitesao.com/
+Duplicate Post (v.2.6) from Enrico Battocchi
+	http://lopo.it/duplicate-post-plugin/
+Duplicator (v.1.2.42) from Snap Creek
+	https://snapcreek.com/duplicator/duplicator-free/
+Icertech - Custom Post Type - Products (v.1.0) from Christopher Beck
+	http://fotofire.com
+Icertech - Custom Post Type - Sectors (v.1.0) from Christopher Beck
+	http://fotofire.com
+LiteSpeed Cache (v.1.1.6) from LiteSpeed Technologies
+	https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration
+MailChimp for WordPress (v.4.2.4) from ibericode
+	https://mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page
+ManageWP - Worker (v.4.6.3) from ManageWP
+	https://managewp.com
+Popup Maker (v.1.4.20) from WP Popup Maker
+	https://wppopupmaker.com/
+Quick Page/Post Redirect Plugin (v.5.1.8) from anadnet
+	http://www.anadnet.com/quick-pagepost-redirect-plugin/
+Really Simple SSL (v.2.5.16) from Rogier Lankhorst
+	https://www.really-simple-ssl.com
+Regenerate Thumbnails (v.2.2.6) from Alex Mills (Viper007Bond)
+	http://www.viper007bond.com/wordpress-plugins/regenerate-thumbnails/
+TablePress (v.1.7) from Tobias Bäthge
+	https://tablepress.org/
+Twitter (v.1.5.0) from Twitter
+	http://wordpress.org/plugins/twitter/
+Ultimate Addons for Visual Composer (v.3.16.19) from Brainstorm Force
+	https://brainstormforce.com/demos/ultimate/
+Velvet Blues Update URLs (v.3.2.4) from VelvetBlues.com
+	http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/
+WooCommerce (v.2.5.5) from WooThemes
+	http://www.woothemes.com/woocommerce/
+WooCommerce - Add Cart to nav / Update cart totals (v.1.0) from Christopher Beck
+	http://fotofire.com
+WooCommerce Dynamic Pricing (v.2.10.11) from Lucas Stark
+	http://www.woothemes.com/woocommerce
+WooCommerce Email Test (v.1.8) from RaiserWeb
+	
+WooCommerce Google Analytics Integration (v.1.4.0) from WooThemes
+	http://wordpress.org/plugins/woocommerce-google-analytics-integration/
+WooCommerce Min/Max Quantities (v.2.3.12) from WooThemes
+	http://woothemes.com/woocommerce
+WooCommerce PDF Invoices & Packing Slips (v.2.1.5) from Ewout Fernhout
+	http://www.wpovernight.com
+WooCommerce Quantity Increment (v.1.1.0) from Automattic, WooThemes
+	https://wordpress.org/plugins/woocommerce-quantity-increment/
+WooCommerce Stripe Gateway (v.3.2.3) from WooCommerce
+	https://wordpress.org/plugins/woocommerce-gateway-stripe/
+WooCommerce Table Rate Shipping (v.2.9.2) from Mike Jolley
+	http://www.woothemes.com/products/table-rate-shipping/
+WooSidebars (v.1.4.3) from WooThemes
+	http://woothemes.com/woosidebars/
+WPBakery Visual Composer (v.5.2) from Michael M - WPBakery.com
+	http://vc.wpbakery.com
+WP File Manager (v.4.8) from mndpsingh287
+	https://wordpress.org/plugins/wp-file-manager
+WP Video Lightbox (v.1.8.4) from Tips and Tricks HQ, Ruhul Amin
+	https://www.tipsandtricks-hq.com/?p=2700
+Yoast SEO (v.3.2.5) from Team Yoast
+	https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpseoplugin
+
+Active plugins:
+------------------------------
+Advanced Custom Fields PRO
+BackWPup
+Better Search Replace
+Bootstrap for Contact Form 7
+Contact Form 7
+Cookie Consent
+Crazy Egg
+Custom Login Page Customizer
+DHPopup - Popup Builder for Visual Composer
+Duplicate Post
+Duplicator
+Icertech - Custom Post Type - Products
+Icertech - Custom Post Type - Sectors
+MailChimp for WordPress
+Popup Maker
+Quick Page/Post Redirect Plugin
+Really Simple SSL
+Regenerate Thumbnails
+TablePress
+Twitter
+Ultimate Addons for Visual Composer
+Velvet Blues Update URLs
+WooCommerce
+WooCommerce Dynamic Pricing
+WooCommerce Email Test
+WooCommerce Google Analytics Integration
+WooCommerce Min/Max Quantities
+WooCommerce PDF Invoices & Packing Slips
+WooCommerce Quantity Increment
+WooCommerce Stripe Gateway
+WooCommerce Table Rate Shipping
+WPBakery Visual Composer
+WP File Manager
+WP Video Lightbox
+Yoast SEO
+
+Inactive plugins:
+------------------------------
+Autoptimize
+LiteSpeed Cache
+ManageWP - Worker
+WooCommerce - Add Cart to nav / Update cart totals
+WooSidebars

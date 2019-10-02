@@ -1,0 +1,15 @@
+.htaccess
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/index.php
+wp-snapshots/*
+
+php.ini
+.user.ini
+
+wp-config.production
+wp-config.staging
+
+robots.txt

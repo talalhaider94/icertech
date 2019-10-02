@@ -1,0 +1,30 @@
+/*
+
+	Theme Name: Icertech
+
+	Theme URI: https://www.fotofire.com
+
+	Description: Fotofire Blank WordPress Theme
+
+	Version: 1.0.0
+
+	Author: Fotofire Ltd (@fotofireltd)
+
+	Author URI: http://www.fotofire.com
+
+*/
+
+.tax-product_cat .amount::before {
+    content: "From ";
+}
+
+.team-icon {
+    background: #f2f2f2 !important;
+    padding: 10px 10px 10px 10px;
+}
+
+.pop-up-title p {
+color: #ffffff;
+font-size: 100px;
+}
+
